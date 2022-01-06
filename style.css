@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 200%;
+    background-color: skyblue;
+}
+.text-justify{
+    text-align: justify;
+}
+.make-flex{
+    display: flex;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+#trainee-img{
+    float: right;
+}
+
+.divide-width-in-two{
+    width: 50%;
+}
+
+.section-one-border{
+    border-left: 15px solid red;
+    padding-left: 25px;
+    font-family: 'Lobster', cursive;
+    font-size:200%;
+}
+
+.tomato-text{
+    color: tomato;
+}
+
+.divide-width-in-three{
+    width: 28%;
+    padding: 2%;
+    border-radius: 35px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.center-text span{
+    color: salmon;
+}
+
+.button{
+    text-decoration: none;
+    color:white;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,salmon,indigo);
+    border-radius: 15px;
+}
+
+img{
+    width: 70%;
+}
+
+#strategy-heading{
+    font-size: 200%;
+    font-family: 'Moon Dance', cursive;
+}
+
+.divide-width-in-three img{
+    width: 50%;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+#mission-bg{
+    background-color: rgba(80, 252, 0, 0.5);
+}
+
+#vision-bg{
+    background-color: rgba(237, 43, 143,.5);
+}
+
+#goal-bg{
+    background-color: rgba(247, 140, 0,.5);
+}
+
+.abril-font{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 200%;
+}
+
+.abril-font span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 80%;
+}
+
+.vujahday-font{
+    font-family: 'Vujahday Script', cursive;
+    font-size: 200%;
+}
+
+#left-circle{
+    margin-left: -150px;
+    background-image: url("/images/shapes/shape-1.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#left-circle img{
+    margin-left: 150px;
+}
+
+#right-circle{
+    margin-right: -200px;
+    margin-bottom: -200px;
+    background-image: url("/images/shapes/shape-1.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#right-circle img{
+    margin-right: 200px;
+    margin-bottom: 200px;
+    float: right;
+}
+
+#footer{
+    background-color: black;
+}
+
+#footer h1{
+    font-family: 'Lobster', cursive, sans-serif;
+    color: white;
+    text-align: center;
+    /* padding: 50px; */
+}
+
+#footer span{
+    color: salmon;
+}
+
+#footer p{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+form {
+    margin-top: 200px;
+    width: 50%;
+}
