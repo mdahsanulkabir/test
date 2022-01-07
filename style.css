@@ -151,5 +151,18 @@ img{
 }
 
 form {
-    margin-top: 200px;
+    width: 80%;
+}
+
+#submit{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: steelblue;
+    color: cyan;
+    font-size: 20px;
+}
+
+.input{
+    width: 100%;
+    height: 25px;
 }
